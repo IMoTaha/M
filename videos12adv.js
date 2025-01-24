@@ -5,7 +5,7 @@ const video_playlist = document.querySelector('.video-playlist .videos');
 // التحقق من حالة "تذكرني"
 if (!localStorage.getItem('user')) {
     // إعادة توجيه المستخدم إلى صفحة تسجيل الدخول إذا لم يكن مسجلاً
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
   }
 
 let data = [
